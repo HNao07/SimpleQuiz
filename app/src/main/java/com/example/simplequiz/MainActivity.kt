@@ -122,11 +122,12 @@ class MainActivity : AppCompatActivity() {
     }
     //正解の関数(アラートダイアログ）
     private fun correctAns() {
-        AlertDialog.Builder(this)
-            .setTitle("正解")
-            .setMessage(quizData[i])
-            .setPositiveButton("OK", null)
-            .show()
+       // AlertDialog.Builder(this)
+         //   .setTitle("正解")
+         //   .setMessage(quizData[i])
+         //   .setPositiveButton("OK", null)
+           // .show()
+        Toast.makeText(this,"正解",Toast.LENGTH_SHORT).show()
     }
 
     //不正解処理の関数
@@ -145,6 +146,4 @@ class MainActivity : AppCompatActivity() {
         btn2.isEnabled = false
         btn3.isEnabled = false
     }
-
-    //sdadsa
 }
