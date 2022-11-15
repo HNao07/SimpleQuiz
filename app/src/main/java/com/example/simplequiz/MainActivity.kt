@@ -27,7 +27,7 @@ class MainActivity : AppCompatActivity() {
         val btn3:Button = findViewById(R.id.btn3)
         //var i =0
 
-        //配列を用意
+        //配列を用意,commm
         //val quizData = arrayOf("A0","A1","A2","A3")
 
         //0~3までのリスト用意→シャッフル
@@ -121,15 +121,13 @@ class MainActivity : AppCompatActivity() {
 
     }
     //正解の関数(アラートダイアログ）
-    private fun correctAns(){
-        //AlertDialog.Builder(this)
+    private fun correctAns() {
+       // AlertDialog.Builder(this)
          //   .setTitle("正解")
          //   .setMessage(quizData[i])
-         //   .setPositiveButton("OK",null)
-         //   .show()
-
-        //Toast
-        Toast.makeText(this,"正解", Toast.LENGTH_SHORT).show()
+         //   .setPositiveButton("OK", null)
+           // .show()
+        Toast.makeText(this,"正解",Toast.LENGTH_SHORT).show()
     }
 
     //不正解処理の関数
